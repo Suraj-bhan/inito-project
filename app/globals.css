@@ -31,3 +31,58 @@ body {
     text-wrap: balance;
   }
 }
+
+.underline-image {
+  box-sizing: border-box;
+  background-image: url("/Vector.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.primary-button {
+  /* width: 189px; */
+  height: 50px;
+  background-color: #1f94aa;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0px 24px;
+  border-radius: 99999px;
+  transition: all ease 0.5s;
+  max-width: max-content;
+}
+
+.primary-button:hover {
+  background-color: #1b8194;
+}
+
+.color-list li::before {
+  content: "";
+  left: 0;
+  display: inline-block;
+  background-image: url("/tick.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 21px;
+  width: 19px;
+  top: 0;
+}
+
+.color-list li:nth-child(1)::before {
+  background-image: url("/tick2.svg");
+}
+
+.color-list li:nth-child(2)::before {
+  background-image: url("/tick3.svg");
+}
+.color-list li:nth-child(3)::before {
+  background-image: url("/tick4.svg");
+}
+
+.shadow-container {
+  box-shadow: 4px 4px 14px 0px #122d351f;
+}
