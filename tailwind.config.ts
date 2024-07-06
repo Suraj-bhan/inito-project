@@ -18,6 +18,7 @@ const config: Config = {
         bggreen: "#B4E4F2",
         lightgreen: "#1F94AA",
         lightText: "#A0ABAE",
+        lightbg: "#E1F4FA",
       },
       borderRadius: {
         "2.5xl": "20px",

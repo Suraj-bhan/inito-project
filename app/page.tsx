@@ -1,13 +1,13 @@
-import MeasureProgesterone from "@/components/MeasureProgesterone";
-import OnlyKit from "@/components/OnlyKit";
-import PredictAndConfirm from "@/components/PredictAndConfirm";
+import Footer from "@/components/Footer";
+import InitoSmartSection from "@/components/InitoSmart";
+import UpperSection from "@/components/UpperSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white text-darkgreen">
-      <OnlyKit />
-      <PredictAndConfirm />
-      <MeasureProgesterone />
+    <main className="flex min-h-screen flex-col items-center justify-between bg-white text-darkgreen">
+      <UpperSection />
+      <InitoSmartSection />
+      <Footer />
     </main>
   );
 }
