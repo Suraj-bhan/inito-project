@@ -1,7 +1,8 @@
-import React from "react";
+
 import OnlyKit from "../OnlyKit";
 import PredictAndConfirm from "../PredictAndConfirm";
 import MeasureProgesterone from "../MeasureProgesterone";
+import TopQuestions from "../TopQuestions";
 
 const UpperSection = () => {
   return (

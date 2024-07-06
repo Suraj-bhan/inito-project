@@ -1,11 +1,12 @@
 import Image from "next/image";
-import React from "react";
 
 const Card1 = () => {
   return (
     <div className="font-medium shadow-container bg-white rounded-2.5xl max-w-5xl m-12 flex justify-between">
       <div className="p-12">
-        <h3 className="font-bold text-3xl">Adapts to your <span className="text-lightText">ir</span>regular cycle</h3>
+        <h3 className="font-bold text-3xl">
+          Adapts to your <span className="text-lightText">ir</span>regular cycle
+        </h3>
         <p>
           Most ovulation kits have a set value or a threshold, making them
           likely to give a false read if your hormones fall outside the average

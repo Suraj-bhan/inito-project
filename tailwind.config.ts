@@ -19,9 +19,12 @@ const config: Config = {
         lightgreen: "#1F94AA",
         lightText: "#A0ABAE",
         lightbg: "#E1F4FA",
+        slidebg: "#F7F7FE",
+        slidetext: "#3F555D",
       },
       borderRadius: {
         "2.5xl": "20px",
+        "5xl": "40px",
       },
       fontSize: {
         // base: '0.938rem',

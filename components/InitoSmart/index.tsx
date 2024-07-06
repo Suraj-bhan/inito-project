@@ -1,4 +1,4 @@
-import React from "react";
+
 import Card1 from "./card1";
 import Card3 from "./card3";
 import Card2 from "./card2";
