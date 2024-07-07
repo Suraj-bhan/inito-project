@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the code
+
+`git clone https://github.com/Suraj-bhan/inito-project.git`
+
+2. Install Dependencies
+
+`npm install`
+
+3. Run the development server:
 
 ```bash
 npm run dev
