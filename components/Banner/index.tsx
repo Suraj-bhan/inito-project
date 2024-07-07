@@ -4,8 +4,8 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="w-full flex flex-col items-center header-bg">
-      <div className="flex max-w-5xl">
-        <div className="flex flex-col justify-center">
+      <div className="grid grid-cols-2 max-w-5xl">
+        <div className="flex flex-col mt-40 w-full">
           <div>
             <div className="flex items-center gap-2 mb-4">
               {[1, 2, 3, 4, 5].map((image) => (
@@ -36,13 +36,13 @@ const Banner = () => {
             How does Inito work?
           </button>
         </div>
-        <div>
+        <div className="relative -ml-24 -mt-8">
           <Image
             src="/banner-hero.png"
             alt="Banner Hero Image"
             width={900}
-            height={900}
-            className="max-w-[750px] w-[650px]"
+            height={800}
+            className="max-w-[750px] w-[750px]"
           />
         </div>
       </div>

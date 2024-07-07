@@ -14,7 +14,7 @@ const NavBar = () => {
             />
           </a>
         </div>
-        <div className="flex items-center gap-6 font-semibold">
+        <div className="sm:flex items-center gap-6 font-semibold hidden">
           <a href="/" className="hover:text-lightgreen">
             About Us
           </a>

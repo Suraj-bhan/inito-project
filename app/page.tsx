@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between bg-white text-darkgreen">
       <NavBar />
-      <UpperSection />
-      <InitoSmartSection />
-      <LowerSection />
+      {/* <UpperSection /> */}
+      {/* <InitoSmartSection /> */}
+      {/* <LowerSection /> */}
       <Footer />
     </main>
   );

@@ -1,0 +1,55 @@
+{
+  "links": [
+    {
+      "id": 1,
+      "header": "Company",
+      "links": [
+        {
+          "title": "About Us"
+        },
+        {
+          "title": "Careers"
+        },
+        {
+          "title": "Blog"
+        },
+        {
+          "title": "Contact Us"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "header": "Support",
+      "links": [
+        {
+          "title": "FAQ"
+        },
+        {
+          "title": "Terms"
+        },
+        {
+          "title": "Privacy Policy"
+        },
+        {
+          "title": "Returns & Warranty"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "header": "Get in touch",
+      "links": [
+        {
+          "title": "+1 815-369-0989"
+        },
+        {
+          "title": "help@inito.com"
+        },
+        {
+          "title": "355 Bryant Street, Suite 403, San Francisco 94017"
+        }
+      ]
+    }
+  ]
+}

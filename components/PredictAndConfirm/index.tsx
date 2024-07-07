@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const PredictAndConfirm = () => {
   return (
-    <div className="bg-bggreen/45 max-w-5xl grid w-full rounded-2.5xl p-6 mt-6">
+    <div className="bg-bggreen/45 max-w-5xl grid w-full rounded-2.5xl p-8 mt-6">
       <div className="flex justify-between gap-16">
         <div>
           <div className="bg-bggreen w-[445px] h-[445px] rounded-2.5xl">
@@ -35,7 +35,7 @@ const PredictAndConfirm = () => {
           </button>
         </div>
       </div>
-      <div className="flex mt-36">
+      <div className="flex mt-36 mb-8">
         <div>
           <h2 className="text-4xl font-bold leading-[50px]">
             Never miss{" "}
@@ -58,12 +58,12 @@ const PredictAndConfirm = () => {
             </span>{" "}
             again with Inito
           </h2>
-          <p className="font-medium">
+          <p className="font-medium mt-6">
             Inito tracks up to 6 fertile days and confirms ovulation by
             measuring all 4 hormones in just 10 minutes:
           </p>
           <div>
-            <ul className="color-list">
+            <ul className="color-list mt-4 gap-2 flex flex-col text-sm">
               <li>Estrogen, which rises 3-4 days before ovulation</li>
               <li>LH, which surges 24-36 hours before ovulation</li>
               <li>PdG, which rises after ovulation</li>
