@@ -115,5 +115,12 @@ body {
 }
 
 .green-white-bg {
-  background: linear-gradient(to bottom, white 55%, #E1F4FA 55%);
+  background: linear-gradient(to bottom, white 55%, #e1f4fa 55%);
+}
+
+.header-bg {
+  background-image: url("/banner-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

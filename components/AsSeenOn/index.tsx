@@ -13,35 +13,30 @@ const AsSeenOn = () => {
           alt="bloomberg logo"
           width={134}
           height={44}
-          // className="justify-self-end mt-4"
         />
         <Image
           src="forbes-logo.svg"
           alt="forbes logo"
           width={134}
           height={44}
-          // className="justify-self-end mt-4"
         />
         <Image
           src="the-week-logo.svg"
           alt="week logo"
           width={134}
           height={44}
-          // className="justify-self-end mt-4"
         />
         <Image
           src="washington-logo.svg"
           alt="washington logo"
           width={134}
           height={44}
-          // className="justify-self-end mt-4"
         />
         <Image
           src="entrepreneur-logo.svg"
           alt="enterpreneur logo"
           width={134}
           height={44}
-          // className="justify-self-end mt-4"
         />
       </div>
     </div>
