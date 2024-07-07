@@ -34,7 +34,7 @@ const MeasureProgesterone = () => {
           conception.&quot;
         </p>
         <div className="flex mt-3 gap-5">
-          <Image src="Rachel.svg" alt="Rachel" width={65} height={65} />
+          <Image src="rachel.svg" alt="Rachel" width={65} height={65} />
           <div className="grid justify-around">
             <div className="font-bold">Dr. Rachel Wagner</div>
             <div className="italic font-medium text-lightText">MD</div>
