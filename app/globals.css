@@ -100,6 +100,12 @@ body {
   box-shadow: 4px 4px 14px 0px #122d351f;
 }
 
+@media screen and (min-width: 650px) {
+  /* .shadow-container {
+    box-shadow: none;
+  } */
+}
+
 .circle-number {
   width: 60px;
   height: 60px;

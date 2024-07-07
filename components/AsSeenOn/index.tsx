@@ -7,7 +7,7 @@ const AsSeenOn = () => {
       <p className="text-dimText font-bold w-full text-center mb-6">
         AS SEEN ON
       </p>
-      <div className="flex items-center justify-between w-full gap-12">
+      <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-12">
         <Image
           src="bloomberg-logo.svg"
           alt="bloomberg logo"

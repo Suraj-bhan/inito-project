@@ -3,9 +3,9 @@ import Image from "next/image";
 const PredictAndConfirm = () => {
   return (
     <div className="bg-bggreen/45 max-w-5xl grid w-full rounded-2.5xl p-8 mt-6">
-      <div className="flex justify-between gap-16">
+      <div className="flex flex-col sm:flex-row justify-between gap-16">
         <div>
-          <div className="bg-bggreen w-[445px] h-[445px] rounded-2.5xl">
+          <div className="bg-bggreen w-full sm:w-[445px] sm:h-[445px] rounded-2.5xl">
             <Image
               src="ovulation-confirmed.svg"
               alt="ovulation-confirmed"
@@ -15,7 +15,7 @@ const PredictAndConfirm = () => {
           </div>
         </div>
         <div className="grid justify-between">
-          <h2 className="text-4xl font-bold leading-[50px]">
+          <h2 className="text-xl sm:text-4xl font-bold sm:leading-[50px]">
             Predict and confirm your ovulation with{" "}
             <span className="underline-image">actual</span> data
           </h2>
@@ -35,9 +35,9 @@ const PredictAndConfirm = () => {
           </button>
         </div>
       </div>
-      <div className="flex mt-36 mb-8">
+      <div className="flex flex-col sm:flex-row mt-36 mb-8 gap-6 sm:gap-0">
         <div>
-          <h2 className="text-4xl font-bold leading-[50px]">
+          <h2 className="text-xl sm:text-4xl font-bold sm:leading-[50px]">
             Never miss{" "}
             <span className="relative inline-block">
               <Image

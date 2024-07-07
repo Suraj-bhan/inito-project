@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Testimonials = () => {
   return (
-    <div className="max-w-5xl h-full my-24">
+    <div className="max-w-[360px] sm:max-w-5xl h-full my-24 mx-auto">
       <Swiper
         pagination={true}
         modules={[Pagination, Autoplay]}

@@ -5,20 +5,20 @@ import Image from "next/image";
 const FertilityLab = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 max-w-5xl my-24 gap-x-12">
+      <div className="grid sm:grid-cols-2 max-w-5xl my-24 gap-x-12 px-6 sm:px-auto">
         <div className="font-medium grid content-center">
-          <h2 className="font-bold text-4xl mb-8">
+          <h2 className="font-bold text-4xl mb-8 text-center sm:text-start">
             A <span className="underline-image">fertility lab</span> at your
             fingertips
           </h2>
-          <p className="mb-8">
+          <p className="mb-8 text-center sm:text-start">
             Easy-to-read fertility diagnostic results directly on your iPhone¹,
             in just 10 minutes.
           </p>
-          <button type="button" className="primary-button mb-6">
+          <button type="button" className="primary-button mb-6 hidden sm:block">
             Get the Inito Kit
           </button>
-          <p className="text-lightText text-xs">
+          <p className="text-lightText text-xs hidden sm:block">
             * The Inito Fertility Monitor currently supports iPhone 7 and up.
             Android phones are not supported at the moment.
           </p>
@@ -27,10 +27,10 @@ const FertilityLab = () => {
             alt="app store logo"
             width={134}
             height={44}
-            className="justify-self-end mt-4"
+            className="justify-self-end mt-4 hidden sm:block"
           />
         </div>
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid sm:grid-cols-2 gap-6">
           <div>
             <video
               autoPlay

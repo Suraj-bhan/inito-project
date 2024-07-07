@@ -21,7 +21,7 @@ const TopQuestions = () => {
           <br /> answered
         </h2>
       </div>
-      <div className="grid max-w-5xl grid-cols-2 gap-4 my-12">
+      <div className="grid max-w-5xl sm:grid-cols-2 gap-4 my-12 px-6 sm:px-auto">
         <div className="flex flex-col gap-4 ">
           {faqs.col1.map((faq, index) => {
             return (

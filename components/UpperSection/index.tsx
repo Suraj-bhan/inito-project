@@ -9,7 +9,7 @@ const UpperSection = () => {
   return (
     <div className="flex flex-col items-center justify-between w-full">
 
-      <Banner />
+      {/* <Banner /> */}
       <AsSeenOn />
       <OnlyKit />
       <PredictAndConfirm />
