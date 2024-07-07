@@ -1,0 +1,24 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "url": "inito-high-fertility.svg",
+      "alt": "High Fertility"
+    },
+    {
+      "id": 2,
+      "url": "inito-peak-fertility.svg",
+      "alt": "Peak Fertility"
+    },
+    {
+      "id": 3,
+      "url": "inito-ovulation-confirmed.svg",
+      "alt": "Ovulation Confirmed"
+    },
+    {
+      "id": 4,
+      "url": "inito-low-fertility.svg",
+      "alt": "Low Fertility"
+    }
+  ]
+}

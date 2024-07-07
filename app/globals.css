@@ -32,14 +32,24 @@ body {
   }
 }
 
-.underline-image {
+.underline-image,
+.circle-image {
   box-sizing: border-box;
   background-image: url("/Vector.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
   background-size: 100% 0.2em;
-  padding-bottom: 0.1em;
+  /* padding-bottom: 0.1em; */
+}
+
+.circle-image {
+  background-image: url("/circle-text.svg");
+  background-position: -0.05em -0.4em;
+  background-size: 6.4em 3.6em;
+  background-position: -4px -14px;
+  padding: 1.5rem 1.1rem 1.5rem 0.7rem;
+  left: -1.5px;
 }
 
 .primary-button {
@@ -102,4 +112,8 @@ body {
   justify-content: center;
   align-content: center;
   flex-basis: 120px;
+}
+
+.green-white-bg {
+  background: linear-gradient(to bottom, white 55%, #E1F4FA 55%);
 }

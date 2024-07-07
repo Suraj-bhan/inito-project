@@ -5,7 +5,7 @@ import Image from "next/image";
 const FertilityLab = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 max-w-5xl py-12 gap-x-12">
+      <div className="grid grid-cols-2 max-w-5xl my-24 gap-x-12">
         <div className="font-medium grid content-center">
           <h2 className="font-bold text-4xl mb-8">
             A <span className="underline-image">fertility lab</span> at your

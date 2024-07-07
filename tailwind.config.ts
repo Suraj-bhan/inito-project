@@ -21,6 +21,7 @@ const config: Config = {
         lightbg: "#E1F4FA",
         slidebg: "#F7F7FE",
         slidetext: "#3F555D",
+        dimText: "#C4C4C4",
       },
       borderRadius: {
         "2.5xl": "20px",

@@ -1,6 +1,6 @@
 const OnlyKit = () => {
   return (
-    <div className="grid items-center max-w-xl gap-y-6">
+    <div className="grid items-center max-w-xl gap-y-6 my-24">
       <h2 className="text-4xl font-bold leading-[50px] text-center">
         The <span className="underline-image">only</span> fertility kit you will
         ever need

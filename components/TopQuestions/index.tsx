@@ -14,17 +14,39 @@ const TopQuestions = () => {
     }
   };
   return (
-    <div>
-      {faqs.map((faq, index) => {
-        return (
-          <AccordianItem
-            key={index}
-            active={active}
-            handleToggle={handleToggle}
-            faq={faq}
-          />
-        );
-      })}
+    <div className="flex flex-col max-w-5xl my-24">
+      <div className="flex justify-center">
+        <h2 className="text-4xl font-bold leading-[50px] text-center max-w-xl">
+          Your top <span className="circle-image">questions,</span>
+          <br /> answered
+        </h2>
+      </div>
+      <div className="grid max-w-5xl grid-cols-2 gap-4 my-12">
+        <div className="flex flex-col gap-4 ">
+          {faqs.col1.map((faq, index) => {
+            return (
+              <AccordianItem
+                key={index}
+                active={active}
+                handleToggle={handleToggle}
+                faq={faq}
+              />
+            );
+          })}
+        </div>
+        <div className="flex flex-col gap-4 ">
+          {faqs.col2.map((faq, index) => {
+            return (
+              <AccordianItem
+                key={index}
+                active={active}
+                handleToggle={handleToggle}
+                faq={faq}
+              />
+            );
+          })}
+        </div>
+      </div>
     </div>
   );
 };
