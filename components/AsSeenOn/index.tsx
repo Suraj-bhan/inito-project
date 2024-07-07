@@ -3,7 +3,7 @@ import React from "react";
 
 const AsSeenOn = () => {
   return (
-    <div className="mt-24">
+    <div className="">
       <p className="text-dimText font-bold w-full text-center mb-6">
         AS SEEN ON
       </p>

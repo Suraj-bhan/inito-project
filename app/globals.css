@@ -123,4 +123,18 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-height: 850px;
+  /* background-position-y: -5%; */
+}
+
+@media screen and (min-width: 2260px) {
+  .main-hero {
+    background-position-y: -550px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .main-hero {
+    /* background-position-y: -300px; */
+  }
 }

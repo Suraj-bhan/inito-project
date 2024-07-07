@@ -22,7 +22,7 @@ const Banner = () => {
               </p>
             </div>
           </div>
-          <h2 className="text-4xl font-bold leading-[50px]">
+          <h2 className="text-5xl font-bold leading-[50px]">
             Track your fertility hormones at home, in 10 minutes
           </h2>
           <p className="font-medium mt-6">
@@ -42,7 +42,7 @@ const Banner = () => {
             alt="Banner Hero Image"
             width={900}
             height={900}
-            className="w-full object-cover"
+            className="max-w-[750px] w-[650px]"
           />
         </div>
       </div>
