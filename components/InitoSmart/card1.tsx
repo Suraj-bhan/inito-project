@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Card1 = () => {
   return (
-    <div className="font-medium shadow-container bg-white rounded-2.5xl max-w-5xl grid grid-cols-2 justify-between">
-      <div className="pl-20 pr-16 flex flex-col justify-center">
+    <div className="font-medium sm:shadow-container sm:bg-white rounded-2.5xl max-w-5xl grid sm:grid-cols-2 justify-between">
+      <div className="pl-8 pr-8 sm:pl-20 sm:pr-16 flex flex-col justify-center mb-16 sm:mb-0">
         <h3 className="font-bold text-3xl">
           Adapts to your <span className="text-lightText">ir</span>regular cycle
         </h3>

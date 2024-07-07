@@ -17,9 +17,8 @@ const Card2 = () => {
   }, []);
 
   return (
-    <div className="font-medium shadow-container bg-white rounded-2.5xl max-w-5xl grid grid-cols-2 justify-between">
+    <div className="font-medium sm:shadow-container bg-white sm:rounded-2.5xl max-w-5xl grid sm:grid-cols-2 justify-between">
       <div className="flex justify-center relative">
-        {/* {imageList.map((image) => ( */}
         <Image
           key={`${imageList[active - 1].id} ${imageList[active - 1].alt}`}
           src={imageList[active - 1].url}
@@ -29,8 +28,6 @@ const Card2 = () => {
           style={{ transition: "all 2s ease-in-out" }}
           className="absolute top-16 "
         />
-        {/* ))} */}
-
         <Image
           src="iphone-12.svg"
           alt="iphone"
@@ -55,7 +52,7 @@ const Card2 = () => {
           <li>When you’ve successfully ovulated</li>
           <li>And when to roll into bed!</li>
         </ul>
-        <button type="button" className="primary-button mb-6">
+        <button type="button" className="primary-button mb-6 hidden sm:block">
           Get the Inito Kit
         </button>
       </div>
